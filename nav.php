@@ -18,7 +18,7 @@
             <li class="dropdown"><a href="highlights.php"><span>Highlights</span> <i
                   class="bi bi-chevron-down dropdown-indicator"></i></a>
               <ul>
-                <li><a href="highlights.php#tab-1">Klang At Glance</a></li>
+                <li><a href="highlights.php#tab-1">Klang @ A Glance</a></li>
                 <li><a href="highlights.php#tab-2">Get To Know The People</a></li>
                 <!-- <li><a href="highlights.php#tab-3">Travel Tips</a></li> -->
 
@@ -36,23 +36,31 @@
               </ul>
             </li>
 
-            <li><a href="shoptildrop.php">Shop Til Drop</a></li>
-            <li class="dropdown"><a href="accommodation.php#placetostay"><span>Accomodation</span> <i
+            <!-- <li><a href="shoptildrop.php">Shop Til Drop</a></li> -->
+            <li class="dropdown"><a href="shoptildrop.php"><span>Shop Til Drop</span> <i
+                  class="bi bi-chevron-down dropdown-indicator"></i></a>
+              <ul>
+                <li><a href="shoptildrop.php#tab-2">Shopping Malls</a></li>
+                <li><a href="shoptildrop.php#tab-3">Day Markets</a></li>
+                <li><a href="shoptildrop.php#tab-4">Night Markets</a></li>
+              </ul>
+            </li>
+            <li class="dropdown"><a href="accommodation.php"><span>Accomodation</span> <i
                   class="bi bi-chevron-down dropdown-indicator"></i></a>
               <ul>
                 <li><a href="accommodation.php#tab-2">Hotels</a></li>
-                <li><a href="accommodation.php#tab-3">Budget Hotels</a></li>
+                <li><a href="accommodation.php#tab-3">Budget Lodging</a></li>
               </ul>
             </li>
-            <li class="dropdown"><a href="healthcare.php#medicaltourism"><span>Healthcare</span> <i
+            <li class="dropdown"><a href="healthcare.php"><span>Healthcare</span> <i
                   class="bi bi-chevron-down dropdown-indicator"></i></a>
               <ul>
-                <li><a href="medical-tourism.php#tab-1">TCM</a></li>
-                <li><a href="medical-tourism.php#tab-2">FACILITIES</a></li>
+                <li><a href="medical-tourism.php#tab-1">Traditional Chinese Medicine</a></li>
+                <li><a href="medical-tourism.php#tab-2">Facilities</a></li>
 
               </ul>
             </li>
-            <li class="dropdown"><a href="kampunglife.php#explorekl"><span>Kampung Life</span> <i
+            <li class="dropdown"><a href="kampunglife.php"><span>Kampung Life</span> <i
                   class="bi bi-chevron-down dropdown-indicator"></i></a>
               <ul>
                 <li><a href="explorekl.php#tab-1">Kampung Kuantan</a></li>
@@ -65,7 +73,7 @@
 
               </ul>
             </li>
-            <li class="dropdown"><a href="nearbyislands.php#beyondkl"><span>Nearby Islands</span> <i
+            <li class="dropdown"><a href="nearbyislands.php"><span>Nearby Islands</span> <i
                   class="bi bi-chevron-down dropdown-indicator"></i></a>
               <ul>
                 <li><a href="beyondkl.php#tab-1">Pulau Ketam</a></li>
@@ -82,7 +90,7 @@
         </li>
         <!-- <li><a class="nav-link scrollto" href="ebook.php#ebook">E-Book</a></li> -->
         <!-- <li><a class="nav-link scrollto" href="blog.php#blog">Blog</a></li> -->
-        <li><a class="nav-link scrollto" href="map.php#map">Map</a></li>
+        <li><a class="nav-link scrollto" href="map.php">Map</a></li>
       </ul>
       <i class="bi bi-list mobile-nav-toggle d-none"></i>
     </nav><!-- .navbar -->

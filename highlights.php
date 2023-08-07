@@ -935,7 +935,7 @@ while ($row = mysqli_fetch_assoc($result)) {
                                   <?php echo urldecode($row['highlights_title']) ?>
                                 </h3>
                                 <p>
-                                  <?php echo urldecode($row['highlights_content']) ?>
+                                    <?php echo str_replace("/", "<br>", urldecode($row['highlights_content'])); ?>
                                 </p>
                                 <?php if ($row['highlights_content2']) { ?>
 
@@ -1064,7 +1064,7 @@ while ($row = mysqli_fetch_assoc($result)) {
                                   <?php echo urldecode($row['highlights_title']) ?>
                                 </h3>
                                 <p>
-                                  <?php echo urldecode($row['highlights_content']) ?>
+                                    <?php echo str_replace("/", "<br>", urldecode($row['highlights_content'])); ?>
                                 </p>
                                 <?php if ($row['highlights_content2']) { ?>
 
@@ -1193,7 +1193,7 @@ while ($row = mysqli_fetch_assoc($result)) {
                                   <?php echo urldecode($row['highlights_title']) ?>
                                 </h3>
                                 <p>
-                                  <?php echo urldecode($row['highlights_content']) ?>
+                                    <?php echo str_replace("/", "<br>", urldecode($row['highlights_content'])); ?>
                                 </p>
                                 <?php if ($row['highlights_content2']) { ?>
 
@@ -1322,7 +1322,7 @@ while ($row = mysqli_fetch_assoc($result)) {
                                   <?php echo urldecode($row['highlights_title']) ?>
                                 </h3>
                                 <p>
-                                  <?php echo urldecode($row['highlights_content']) ?>
+                                    <?php echo str_replace("/", "<br>", urldecode($row['highlights_content'])); ?>
                                 </p>
                                 <?php if ($row['highlights_content2']) { ?>
 
@@ -1450,7 +1450,7 @@ while ($row = mysqli_fetch_assoc($result)) {
                                   <?php echo urldecode($row['highlights_title']) ?>
                                 </h3>
                                 <p>
-                                  <?php echo urldecode($row['highlights_content']) ?>
+                                    <?php echo str_replace("/", "<br>", urldecode($row['highlights_content'])); ?>
                                 </p>
                                 <?php if ($row['highlights_content2']) { ?>
 
