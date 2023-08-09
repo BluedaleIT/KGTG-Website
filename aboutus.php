@@ -1,4 +1,4 @@
-<?php include('admin/functions.php');?>
+<?php include('admin/functions.php'); ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -6,25 +6,23 @@
 <head>
   <title>Klang The Guide - About Us</title>
 
-  <meta name="description" content="Bluedale Publishing is dedicated to helping people make the most of their open-ended travel experiences, so we feel a deep sense of responsibility and privilege when we help someone create their own stories.">
-  <meta name="keywords" content="About Us, Bluedale Publishing, Bluedale, BGOC, travel, tourism, Malaysia, 
-	KL The Guide E-Book, KLTG ebook, KL The Guide, travel guidebook, Malaysia's capital city, e-book, Kuala Lumpur, KL,
-	Dataran Merdeka, Petaling Street, travel guide app, travel guide, KLCC, KL Tower, Batu Caves, Google Play Store, Apple App Store, KL The Guide, Kuala Lumpur city">
+  <meta name="description" content="">
+  <meta content="" name="keywords">
 
 
   <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://www.kltheguide.com.my/aboutus.php" />
-  <meta property="og:title" content="KL The Guide - About Us" />
-  <meta property="og:description" content="Bluedale Publishing is dedicated to helping people make the most of their open-ended travel experiences, so we feel a deep sense of responsibility and privilege when we help someone create their own stories." />
-  <meta property="og:image" content="https://www.kltheguide.com.my/assets/img/kltgseo.jpg">
+  <meta property="og:type" content="" />
+  <meta property="og:url" content="" />
+  <meta property="og:title" content="" />
+  <meta property="og:description" content="" />
+  <meta property="og:image" content="">
 
   <!-- Twitter -->
-  <meta property="twitter:card" content="summary_large_image" />
-  <meta property="twitter:url" content="https://www.kltheguide.com.my/aboutus.php" />
-  <meta property="twitter:title" content="KL The Guide - About Us" />
-  <meta property="twitter:description" content="Bluedale Publishing is dedicated to helping people make the most of their open-ended travel experiences, so we feel a deep sense of responsibility and privilege when we help someone create their own stories." />
-  <meta property="twitter:image" content="https://www.kltheguide.com.my/assets/img/kltgseo.jpg" />
+  <meta property="twitter:card" content="" />
+  <meta property="twitter:url" content="" />
+  <meta property="twitter:title" content="" />
+  <meta property="twitter:description" content="" />
+  <meta property="twitter:image" content="" />
 
   <?php include 'header.php'; ?>
 
@@ -38,13 +36,18 @@
 
   <main id="aboutus">
 
-  
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="hero carousel  carousel-fade" data-bs-ride="carousel" data-bs-interval="5000"
+      touch="true">
+
+
+    </section><!-- End Hero Section -->
 
     <!-- ======= About Section ======= -->
     <section id="about" class="about">
       <div class="container" data-aos="fade-up">
 
-        <div class="section-header my-5">
+        <div class="section-header ">
           <h2>About Us</h2>
           <!-- <p>Architecto nobis eos vel nam quidem vitae temporibus voluptates qui hic deserunt iusto omnis nam voluptas
             asperiores sequi tenetur dolores incidunt enim voluptatem magnam cumque fuga.</p> -->
@@ -97,10 +100,19 @@
             <h3 class="pt-0 pt-lg-5">Travel Guide In Your Palm
             </h3>
 
-            <p>Available on both <b><a href="https://play.google.com/store/apps/details?id=my.com.kltheguide" target="blank">Google Play Store</a></b> and <b><a href="https://apps.apple.com/my/app/kl-the-guide/id1541581263" target="blank">Apple App Store</a></b>, KL The Guide is a free travel guide app created to ensure both international and domestic travellers are given the information needed for them to have an enjoyable adventure around Kuala Lumpur. Kuala Lumpur city is blessed with many beautiful sights, shopping malls, and instagrammable cafes. It is also a melting pot of cultures that can be experienced through food, architecture and places of worship.</p>
+            <p>Available on both <b><a href="https://play.google.com/store/apps/details?id=my.com.kltheguide"
+                  target="blank">Google Play Store</a></b> and <b><a
+                  href="https://apps.apple.com/my/app/kl-the-guide/id1541581263" target="blank">Apple App Store</a></b>,
+              KL The Guide is a free travel guide app created to ensure both international and domestic travellers are
+              given the information needed for them to have an enjoyable adventure around Kuala Lumpur. Kuala Lumpur
+              city is blessed with many beautiful sights, shopping malls, and instagrammable cafes. It is also a melting
+              pot of cultures that can be experienced through food, architecture and places of worship.</p>
 
 
-            <p>Each section of the app has been carefully curated to provide travellers with sufficient information that they need to explore Malaysia’s capital city with ease. So, what are you waiting for? Install our app now and start mapping out your adventure to Kuala Lumpur. The city will surely have you in awe with its mix of culture and cuisines.</p>
+            <p>Each section of the app has been carefully curated to provide travellers with sufficient information that
+              they need to explore Malaysia’s capital city with ease. So, what are you waiting for? Install our app now
+              and start mapping out your adventure to Kuala Lumpur. The city will surely have you in awe with its mix of
+              culture and cuisines.</p>
 
 
 

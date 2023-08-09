@@ -8,25 +8,23 @@
 <head>
   <title>Klang The Guide - Accommodation</title>
 
-  <meta name="description"
-    content="The perfect guide for finding places to stay in Kuala Lumpur, a city that never sleeps. Browse listings of the best hotels, resorts, hostels and apartments in the capital of Malaysia.">
-
+  <meta name="description" content="">
   <meta content="" name="keywords">
 
 
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://www.kltheguide.com.my/accommodation.php" />
-  <meta property="og:title" content="KL The Guide - Place To Stay" />
-  <meta property="og:description" content="The perfect guide for finding places to stay in Kuala Lumpur, a city that never sleeps. Browse listings of the best hotels, resorts, hostels and apartments in the capital of Malaysia." />
-  <meta property="og:image" content="https://www.kltheguide.com.my/assets/img/kltgseo.jpg">
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="" />
+  <meta property="og:url" content="" />
+  <meta property="og:title" content="" />
+  <meta property="og:description" content="" />
+  <meta property="og:image" content="">
 
   <!-- Twitter -->
-  <meta property="twitter:card" content="summary_large_image" />
-  <meta property="twitter:url" content="https://www.kltheguide.com.my/accommodation.php" />
-  <meta property="twitter:title" content="KL The Guide - Place To Stay" />
-  <meta property="twitter:description" content="The perfect guide for finding places to stay in Kuala Lumpur, a city that never sleeps. Browse listings of the best hotels, resorts, hostels and apartments in the capital of Malaysia." />
-  <meta property="twitter:image" content="https://www.kltheguide.com.my/assets/img/kltgseo.jpg" />
+  <meta property="twitter:card" content="" />
+  <meta property="twitter:url" content="" />
+  <meta property="twitter:title" content="" />
+  <meta property="twitter:description" content="" />
+  <meta property="twitter:image" content="" />
 
 
   <?php include 'header.php'; ?>
@@ -74,7 +72,7 @@
 
         <div class="tab-content">
 
-          
+
 
           <div class="tab-pane" id="tab-2">
 
@@ -187,7 +185,7 @@
 
           </div>
 
-          
+
 
     </section><!-- End Features Section -->
 

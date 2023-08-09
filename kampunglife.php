@@ -9,25 +9,25 @@
   <title>Klang The Guide - Kampung Life</title>
 
   <meta name="description"
-    content="This page contains the menu for navigating to the various sights, activities and locations throughout Kuala Lumpur">
+    content="">
   <meta content="" name="keywords">
 
 
   <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://www.kltheguide.com.my/explorekl.php" />
-  <meta property="og:title" content="KL The Guide - Explore KL" />
+  <meta property="og:type" content="" />
+  <meta property="og:url" content="" />
+  <meta property="og:title" content="" />
   <meta property="og:description"
-    content="This page contains the menu for navigating to the various sights, activities and locations throughout Kuala Lumpur" />
-  <meta property="og:image" content="https://www.kltheguide.com.my/assets/img/kltgseo.jpg">
+    content="" />
+  <meta property="og:image" content="">
 
   <!-- Twitter -->
-  <meta property="twitter:card" content="summary_large_image" />
-  <meta property="twitter:url" content="https://www.kltheguide.com.my/explorekl.php" />
-  <meta property="twitter:title" content="KL The Guide - Explore KL" />
+  <meta property="twitter:card" content="" />
+  <meta property="twitter:url" content="" />
+  <meta property="twitter:title" content="" />
   <meta property="twitter:description"
-    content="This page contains the menu for navigating to the various sights, activities and locations throughout Kuala Lumpur" />
-  <meta property="twitter:image" content="assets/img/kltgseo.jpg" />
+    content="" />
+  <meta property="twitter:image" content="" />
 
 
   <?php include 'header.php'; ?>
@@ -42,18 +42,23 @@
 
   <main id="exploreklbody">
 
+
+  <section id="hero" class="hero carousel  carousel-fade" data-bs-ride="carousel" data-bs-interval="5000"
+      touch="true">
+    </section><!-- End Hero Section -->
+
     <!-- ======= About Section ======= -->
     <section id="explorekl" class="about">
       <div class="container" data-aos="fade-up">
 
-        <div class="section-header mt-5" style="margin-bottom:0px;">
+        <div class="section-header " style="margin-bottom:0px;">
           <h2>Map of Kampung</h2>
           <!-- <p>Architecto nobis eos vel nam quidem vitae temporibus voluptates qui hic deserunt iusto omnis nam voluptas
             asperiores sequi tenetur dolores incidunt enim voluptatem magnam cumque fuga.</p> -->
         </div>
         <div class="row " data-aos="fade-up" data-aos-delay="200">
 
-          <div class="col-12 mx-auto  justify-content-center align-items-center" style="max-height:300px"  >
+          <div class="col-12 mx-auto  justify-content-center align-items-center" style="max-height:300px ;max-width:300px"  >
 
             <!-- <img src="assets/img/kampunglife/map/map.png" class="img-fluid" alt=""> -->
             <a href="assets/img/kampunglife/map/map.png" class="glightbox ">

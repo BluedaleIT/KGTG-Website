@@ -9,25 +9,25 @@
   <title>Klang The Guide - Explore Klang</title>
 
   <meta name="description"
-    content="This page contains the menu for navigating to the various sights, activities and locations throughout Kuala Lumpur">
+    content="">
   <meta content="" name="keywords">
 
 
   <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://www.kltheguide.com.my/explorekl.php" />
-  <meta property="og:title" content="KL The Guide - Explore KL" />
+  <meta property="og:type" content="" />
+  <meta property="og:url" content="" />
+  <meta property="og:title" content="" />
   <meta property="og:description"
-    content="This page contains the menu for navigating to the various sights, activities and locations throughout Kuala Lumpur" />
-  <meta property="og:image" content="https://www.kltheguide.com.my/assets/img/kltgseo.jpg">
+    content="" />
+  <meta property="og:image" content="">
 
   <!-- Twitter -->
-  <meta property="twitter:card" content="summary_large_image" />
-  <meta property="twitter:url" content="https://www.kltheguide.com.my/explorekl.php" />
-  <meta property="twitter:title" content="KL The Guide - Explore KL" />
+  <meta property="twitter:card" content="" />
+  <meta property="twitter:url" content="" />
+  <meta property="twitter:title" content="" />
   <meta property="twitter:description"
-    content="This page contains the menu for navigating to the various sights, activities and locations throughout Kuala Lumpur" />
-  <meta property="twitter:image" content="assets/img/kltgseo.jpg" />
+    content="" />
+  <meta property="twitter:image" content="" />
 
 
   <?php include 'header.php'; ?>
@@ -55,7 +55,7 @@
         <ul class="nav nav-tabs row gy-4  my-5 d-flex justify-content-center">
 
           <li class="nav-item col-4 col-md-3 col-lg">
-            <a class="nav-link explorekl3" id="tab-3-link" data-bs-toggle="tab" href="#tab-3" data-bs-target="#tab-3">
+            <a class="nav-link pwor" id="tab-3-link" data-bs-toggle="tab" href="#tab-3" data-bs-target="#tab-3">
               <!-- <img src="assets/img/recommendation/2.png" class="img-fluid" alt=""> -->
               <h4 class="text-center align-middle">Places Of Worship</h4>
             </a>
@@ -63,7 +63,7 @@
 
 
           <li class="nav-item col-4 col-md-3 col-lg">
-            <a class="nav-link explorekl7" id="tab-7-link" data-bs-toggle="tab" href="#tab-7" data-bs-target="#tab-7">
+            <a class="nav-link sight" id="tab-7-link" data-bs-toggle="tab" href="#tab-7" data-bs-target="#tab-7">
               <!-- <img src="assets/img/recommendation/2.png" class="img-fluid" alt=""> -->
               <h4 class="text-center align-middle text-break">Sightseeing</h4>
             </a>
@@ -79,7 +79,7 @@
 
 
           <li class="nav-item col-4 col-md-3 col-lg">
-            <a class="nav-link explorekl4" id="tab-4-link" data-bs-toggle="tab" href="#tab-4" data-bs-target="#tab-4">
+            <a class="nav-link sports" id="tab-4-link" data-bs-toggle="tab" href="#tab-4" data-bs-target="#tab-4">
               <!-- <img src="assets/img/recommendation/2.png" class="img-fluid" alt=""> -->
               <h4 class="text-center align-middle">Sports</h4>
             </a>
@@ -88,7 +88,7 @@
 
 
           <li class="nav-item col-4 col-md-3 col-lg">
-            <a class="nav-link explorekl5" id="tab-5-link" data-bs-toggle="tab" href="#tab-5" data-bs-target="#tab-5">
+            <a class="nav-link makan" id="tab-5-link" data-bs-toggle="tab" href="#tab-5" data-bs-target="#tab-5">
               <!-- <img src="assets/img/recommendation/2.png" class="img-fluid" alt=""> -->
               <h4 class="text-center align-middle">Makan-Makan</h4>
             </a>

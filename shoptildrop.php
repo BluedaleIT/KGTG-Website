@@ -9,25 +9,25 @@
   <title>Klang The Guide - Shop Til Drop</title>
 
   <meta name="description"
-    content="Explore the best stores and local boutiques in KL, find out all there is to know about shopping, including shopping hotspots, shopping malls, shopping districts, shopping on your smartphone and more.">
+    content="">
   <meta content="" name="keywords">
 
 
   <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://www.kltheguide.com.my/where-to-shop.php" />
-  <meta property="og:title" content="KL The Guide - Places to Shop In KL" />
+  <meta property="og:type" content="" />
+  <meta property="og:url" content="" />
+  <meta property="og:title" content="" />
   <meta property="og:description"
-    content="Explore the best stores and local boutiques in KL, find out all there is to know about shopping, including shopping hotspots, shopping malls, shopping districts, shopping on your smartphone and more." />
-  <meta property="og:image" content="https://www.kltheguide.com.my/assets/img/kltgseo.jpg">
+    content="" />
+  <meta property="og:image" content="">
 
   <!-- Twitter -->
-  <meta property="twitter:card" content="summary_large_image" />
-  <meta property="twitter:url" content="https://www.kltheguide.com.my/where-to-shop.php" />
-  <meta property="twitter:title" content="KL The Guide - Places to Shop In KL" />
+  <meta property="twitter:card" content="" />
+  <meta property="twitter:url" content="" />
+  <meta property="twitter:title" content="" />
   <meta property="twitter:description"
-    content="Explore the best stores and local boutiques in KL, find out all there is to know about shopping, including shopping hotspots, shopping malls, shopping districts, shopping on your smartphone and more." />
-  <meta property="twitter:image" content="https://www.kltheguide.com.my/assets/img/kltgseo.jpg" />
+    content="" />
+  <meta property="twitter:image" content="" />
 
 
   <?php include 'header.php'; ?>
@@ -70,7 +70,7 @@
             </a>
           </li><!-- End Tab 3 Nav -->
           <li class="nav-item col-6 col-md-3 col-lg-3">
-            <a class="nav-link acco3" id="tab-3-link" data-bs-toggle="tab" href="#tab-4" data-bs-target="#tab-4">
+            <a class="nav-link nm" id="tab-3-link" data-bs-toggle="tab" href="#tab-4" data-bs-target="#tab-4">
               <!-- <img src="assets/img/recommendation/2.png" class="img-fluid" alt=""> -->
               <h4>Night Markets</h4>
             </a>
@@ -167,7 +167,7 @@
                 echo '  <div class="card h-100">';
                 echo '    <div class="row h-100">';
                 echo '      <div class="col-6">';
-                echo '        <img class="card-img h-100 " src=assets/img/shop/daym/' . $row['shop_image'] . '" alt="' . urldecode($row['shop_title']) . '" loading="lazy">';
+                echo '        <img class="card-img h-100 " src="assets/img/shop/daym/' . $row['shop_image'] . '" alt="' . urldecode($row['shop_title']) . '" loading="lazy">';
                 echo '      </div>';
                 echo '      <div class="col-6 " >';
                 echo '        <div class="card-body ">';

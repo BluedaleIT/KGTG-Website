@@ -40,7 +40,7 @@
 <link href="assets/css/main.css" rel="stylesheet">
 
 <!-- Web Manifest -->
-<link rel="manifest" href="manifest.json">
+<!-- <link rel="manifest" href="manifest.json"> -->
 <?php 
 // $urlpageview = $_SERVER['REQUEST_URI'];
 // $query = "INSERT INTO pageview (url, views) 

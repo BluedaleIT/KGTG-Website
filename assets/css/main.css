@@ -244,7 +244,7 @@ section {
 }
 
 .header .logo h1 {
-  font-size: 32px;
+  font-size: 16px;
   font-weight: 300;
   color: var(--color-secondary);
   font-family: var(--font-secondary);
@@ -577,7 +577,7 @@ section {
 .hero-animated {
   width: 100%;
   height: 40vh; /* max-height: 30vh; */
-  /* background: url("../img/bgtest2.webp") center center; */
+  background: url("../img/hero-bg.png") center center;
   /* background-color: rgba(var(--color-black-rgb)); */
   background-size: cover;
   position: relative;
@@ -808,6 +808,12 @@ section {
   }
 }
 
+@media (max-width: 768px) {
+  .hero .carousel-control-next,
+  .hero .carousel-control-prev {
+    display: none;
+  }
+}
 .hero .carousel-control-next-icon,
 .hero .carousel-control-prev-icon {
   background: none;
@@ -4343,11 +4349,59 @@ h6 {
   text-shadow: 0px 0px 3px #000000;
 }
 .features .explorekl3 {
-  background-image: url(../img/explorekl/pwor.webp);
+  background-image: url(../img/pwor/pwor.webp);
   background-size: cover;
   /* aspect-ratio: 16/9; */
 }
 .features .explorekl3 h4 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 10px 0 0 0;
+  color: var(--color-white);
+  text-shadow: 0px 0px 3px #000000;
+}
+.features .pwor {
+  background-image: url(../img/pwor/mosque.jpg);
+  background-size: cover;
+  /* aspect-ratio: 16/9; */
+}
+.features .pwor h4 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 10px 0 0 0;
+  color: var(--color-white);
+  text-shadow: 0px 0px 3px #000000;
+}
+.features .sight {
+  background-image: url(../img/sight/ERr1iLXUYAAtG7o.webp);
+  background-size: cover;
+  /* aspect-ratio: 16/9; */
+}
+.features .sight h4 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 10px 0 0 0;
+  color: var(--color-white);
+  text-shadow: 0px 0px 3px #000000;
+}
+.features .sports {
+  background-image: url(../img/sports/button.jpg);
+  background-size: cover;
+  /* aspect-ratio: 16/9; */
+}
+.features .sports h4 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 10px 0 0 0;
+  color: var(--color-white);
+  text-shadow: 0px 0px 3px #000000;
+}
+.features .makan {
+  background-image: url(../img/makan/remember\ me\ seafood.jpg);
+  background-size: cover;
+  /* aspect-ratio: 16/9; */
+}
+.features .makan h4 {
   font-size: 20px;
   font-weight: 600;
   margin: 10px 0 0 0;
@@ -4466,76 +4520,6 @@ h6 {
   text-shadow: 0px 0px 3px #000000;
 }
 
-/* beyond kl */
-.features .beyond1 {
-  background-image: url(../img/beyondkl/ISLAND-01.jpg);
-  background-size: cover;
-  aspect-ratio: 1/1;
-}
-.features .beyond1 h4 {
-  font-size: 20px;
-  font-weight: 600;
-  margin: 10px 0 0 0;
-  color: var(--color-white);
-  text-shadow: 0px 0px 3px #000000;
-}
-
-.features .beyond2 {
-  background-image: url(../img/beyondkl/HILL-STATION-01.jpg);
-  background-size: cover;
-  /* max-width: 250px;
-  max-height: 250px; */
-  aspect-ratio: 1/1;
-}
-.features .beyond2 h4 {
-  font-size: 20px;
-  font-weight: 600;
-  margin: 10px 0 0 0;
-  color: var(--color-white);
-  text-shadow: 0px 0px 3px #000000;
-}
-.features .beyond3 {
-  background-image: url(../img/beyondkl/WATERFALL-01.jpg);
-  background-size: cover;
-  /* max-width: 250px;
-  max-height: 250px; */
-  aspect-ratio: 1/1;
-}
-.features .beyond3 h4 {
-  font-size: 20px;
-  font-weight: 600;
-  margin: 10px 0 0 0;
-  color: var(--color-white);
-  text-shadow: 0px 0px 3px #000000;
-}
-.features .beyond4 {
-  background-image: url(../img/beyondkl/HIKING.jpg);
-  background-size: cover;
-  /* max-width: 250px;
-  max-height: 250px; */
-  aspect-ratio: 1/1;
-}
-.features .beyond4 h4 {
-  font-size: 20px;
-  font-weight: 600;
-  margin: 10px 0 0 0;
-  color: var(--color-white);
-  text-shadow: 0px 0px 3px #000000;
-}
-.features .beyond5 {
-  background-image: url(../img/beyondkl/EXTREME-SPORT-2.webp);
-  background-size: cover;
-  /* max-width: 250px;
-  max-height: 250px; */
-  aspect-ratio: 1/1;
-}
-.features .beyond5 h4 {
-  font-size: 20px;
-  font-weight: 600;
-  margin: 10px 0 0 0;
-  color: var(--color-white);
-  text-shadow: 0px 0px 3px #000000;
-}
 
 /* highlight */
 /* .features .hightlight1 {
@@ -5366,12 +5350,27 @@ h6 {
 }
 
 /* beyond kl */
-.features .beyond1 {
-  background-image: url(../img/beyondkl/ISLAND-01.jpg);
+.features .ketam {
+  background-image: url(../img/islands/ketam.jpg);
   background-size: cover;
   aspect-ratio: 1/1;
 }
-.features .beyond1 h4 {
+.features .ketam h4 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 10px 0 0 0;
+  color: var(--color-white);
+  text-shadow: 0px 0px 3px #1b1616;
+}
+
+.features .indah {
+  background-image: url(../img/islands/indah.jpg);
+  background-size: cover;
+  /* max-width: 250px;
+  max-height: 250px; */
+  aspect-ratio: 1/1;
+}
+.features .indah h4 {
   font-size: 20px;
   font-weight: 600;
   margin: 10px 0 0 0;
@@ -5379,19 +5378,29 @@ h6 {
   text-shadow: 0px 0px 3px #000000;
 }
 
-.features .beyond2 {
-  background-image: url(../img/beyondkl/HILL-STATION-01.jpg);
+.features .glance {
+  background-image: url(../img/highlights/glance.jpg);
   background-size: cover;
-  /* max-width: 250px;
-  max-height: 250px; */
   aspect-ratio: 1/1;
 }
-.features .beyond2 h4 {
+.features .glance h4 {
   font-size: 20px;
   font-weight: 600;
   margin: 10px 0 0 0;
   color: var(--color-white);
-  text-shadow: 0px 0px 3px #000000;
+  text-shadow: 0px 0px 3px #1b1616;
+}
+.features .people {
+  background-image: url(../img/highlights/people.webp);
+  background-size: cover;
+  aspect-ratio: 1/1;
+}
+.features .people h4 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 10px 0 0 0;
+  color: var(--color-white);
+  text-shadow: 0px 0px 3px #1b1616;
 }
 .features .beyond3 {
   background-image: url(../img/beyondkl/WATERFALL-01.jpg);
@@ -5526,14 +5535,14 @@ h6 {
   text-shadow: 0px 0px 3px #000000;
 }
 
-.features .acco4 {
-  background-image: url(../img/accommodation/BACKPACKERS-LODGE-01.jpg);
+.features .nm {
+  background-image: url(../img/shop/Property_Propsocial_Pasar_Malam_Taman_Connaught_large.jpeg);
   background-size: cover;
   max-width: 250px;
   max-height: 250px;
   aspect-ratio: 1/1;
 }
-.features .acco4 h4 {
+.features .nm h4 {
   font-size: 20px;
   font-weight: 800;
   margin: 10px 0 0 0;

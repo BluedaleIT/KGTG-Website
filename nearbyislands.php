@@ -8,25 +8,22 @@
 <head>
   <title>Klang The Guide - Nearby Islands</title>
 
-  <meta name="description"
-    content="Beyond KL is the best KL guide for discovering the city beyond KL's everyday destinations.">
+  <meta name="description" content="">
   <meta content="" name="keywords">
 
   <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://www.kltheguide.com.my/beyondkl.php" />
-  <meta property="og:title" content="KL The Guide - Beyond KL" />
-  <meta property="og:description"
-    content="Beyond KL is the best KL guide for discovering the city beyond KL's everyday destinations." />
-  <meta property="og:image" content="https://www.kltheguide.com.my/assets/img/kltgseo.jpg">
+  <meta property="og:type" content="" />
+  <meta property="og:url" content="" />
+  <meta property="og:title" content="" />
+  <meta property="og:description" content="" />
+  <meta property="og:image" content="">
 
   <!-- Twitter -->
-  <meta property="twitter:card" content="summary_large_image" />
-  <meta property="twitter:url" content="https://www.kltheguide.com.my/beyondkl.php" />
-  <meta property="twitter:title" content="KL The Guide - Beyond KL" />
-  <meta property="twitter:description"
-    content="Beyond KL is the best KL guide for discovering the city beyond KL's everyday destinations." />
-  <meta property="twitter:image" content="https://www.kltheguide.com.my/assets/img/kltgseo.jpg" />
+  <meta property="twitter:card" content="" />
+  <meta property="twitter:url" content="" />
+  <meta property="twitter:title" content="" />
+  <meta property="twitter:description" content="" />
+  <meta property="twitter:image" content="" />
 
 
 
@@ -44,24 +41,28 @@
 
 
 
-    <br>
+    <section id="hero" class="hero carousel  carousel-fade" data-bs-ride="carousel" data-bs-interval="5000"
+      touch="true">
+    </section><!-- End Hero Section -->
 
     <!-- ======= About Section ======= -->
-    <section id="explorekl" class="about">
+    <section id="nearbyislands" class="about">
       <div class="container" data-aos="fade-up">
 
-        <div class="section-header mt-5" style="margin-bottom:0px;">
+        <div class="section-header" style="margin-bottom:0px;">
           <h2>Map of Islands</h2>
           <!-- <p>Architecto nobis eos vel nam quidem vitae temporibus voluptates qui hic deserunt iusto omnis nam voluptas
             asperiores sequi tenetur dolores incidunt enim voluptatem magnam cumque fuga.</p> -->
         </div>
         <div class="row " data-aos="fade-up" data-aos-delay="200">
 
-          <div class="col-12 mx-auto  justify-content-center align-items-center " style="max-height:300px"  >
+          <div class="col-12 mx-auto  justify-content-center align-items-center " style="max-height:300px ;max-width:300px">
 
             <!-- <img src="assets/img/kampunglife/map/map.png" class="img-fluid" alt=""> -->
             <a href="assets/img/islands/map/map.png" class="glightbox ">
-              <img src="assets/img/islands/map/map.png" class="img-fluid d-flex justify-content-center align-items-center mx-auto" style="object-fit: cover;max-width:300px" alt="">
+              <img src="assets/img/islands/map/map.png"
+                class="img-fluid d-flex justify-content-center align-items-center mx-auto"
+                style="object-fit: cover;max-width:300px" alt="">
             </a>
           </div>
 
@@ -72,18 +73,18 @@
     <!-- ======= Features Section ======= -->
     <section id="features" class="features">
 
-      <div class="container" >
+      <div class="container">
 
         <ul class="nav nav-tabs row gy-4  my-5 d-flex justify-content-center">
 
           <li class="nav-item col-6 col-md-3 col-lg-3">
-            <a class="nav-link beyond1" id="tab-1-link" href="#tab-1" data-bs-toggle="tab" data-bs-target="#tab-1">
+            <a class="nav-link ketam" id="tab-1-link" href="#tab-1" data-bs-toggle="tab" data-bs-target="#tab-1">
               <h4 class="text-center">Pulau Ketam</h4>
             </a>
           </li><!-- End Tab 1 Nav -->
 
           <li class="nav-item col-6 col-md-3 col-lg-3">
-            <a class="nav-link beyond2" id="tab-2-link" data-bs-toggle="tab" href="#tab-2" data-bs-target="#tab-2">
+            <a class="nav-link indah" id="tab-2-link" data-bs-toggle="tab" href="#tab-2" data-bs-target="#tab-2">
               <h4 class="text-center">Pulau Indah</h4>
             </a>
           </li><!-- End Tab 2 Nav -->
@@ -114,7 +115,7 @@
 
           <div class="tab-pane" id="tab-1">
 
-          <div class="row gy-10 mb-5">
+            <div class="row gy-10 mb-5">
               <div class="col-12 text-center">
                 <h3>Pulau Ketam</h3>
 
@@ -134,8 +135,8 @@
                     <ul class="nav nav-pills mb-3 justify-content-center">
                       <li><a class="nav-link2  d-flex justify-content-center active" data-bs-toggle="pill"
                           href="#tabe1">Must Visits Spots</a></li>
-                      <li><a class="nav-link2  d-flex justify-content-center" data-bs-toggle="pill"
-                          href="#tabe2">Grab A Bite</a></li>
+                      <li><a class="nav-link2  d-flex justify-content-center" data-bs-toggle="pill" href="#tabe2">Grab A
+                          Bite</a></li>
 
                     </ul><!-- End Tabs -->
 
@@ -158,14 +159,21 @@
                             echo '<div class="col-12 col-lg-6 mb-3  ">';
                             echo '  <div class="card h-100">';
                             echo '    <div class="row  h-100">';
-                            echo '      <div class="col-6">';
-                            echo '        <img class="card-img " src="assets/img/explorekl/islands/' . $row['islands_image'] . '" alt="' . $row['islands_title'] . '" loading="lazy" >';
+                            echo '      <div class="col-6 h-100">';
+                            echo '        <img class="card-img h-100 " src="assets/img/islands/ketam/' . $row['islands_image'] . '" alt="' . $row['islands_title'] . '" loading="lazy" >';
                             echo '      </div>';
                             echo '      <div class="col-6 " >';
                             echo '        <div class="card-body h-100">';
                             echo '          <h5 class="card-title">' . urldecode($row['islands_title']) . '</h5>';
                             if ($row['islands_location']) {
-                              echo '          <p class="card-text">Location: <a href="' . $row['islands_locationurl'] . '">' . urldecode($row['islands_location']) . '</a></p>';
+                              if ($row['islands_locationurl']) {
+                                echo '          <p class="card-text">Location: <a href="' . $row['islands_locationurl'] . '">' . urldecode($row['islands_location']) . '</a></p>';
+
+                              }
+                              else{
+                                echo '          <p class="card-text">Location: ' . urldecode($row['islands_location']) . '</p>';
+
+                              }
                             }
                             if ($row['islands_hours']) {
                               echo '          <p class="card-text">Operating Hours: ' . urldecode($row['islands_hours']) . '</p>';
@@ -208,8 +216,8 @@
                             echo '<div class="col-12 col-lg-6 mb-3  ">';
                             echo '  <div class="card h-100">';
                             echo '    <div class="row  h-100">';
-                            echo '      <div class="col-6">';
-                            echo '        <img class="card-img  " src="assets/img/explorekl/islands/' . $row['islands_image'] . '" alt="' . $row['islands_title'] . '" loading="lazy">';
+                            echo '      <div class="col-6 h-100">';
+                            echo '        <img class="card-img h-100 " src="assets/img/islands/ketam/' . $row['islands_image'] . '" alt="' . $row['islands_title'] . '" loading="lazy">';
                             echo '      </div>';
                             echo '      <div class="col-6 " >';
                             echo '        <div class="card-body h-100 ">';
@@ -257,7 +265,7 @@
 
           <div class="tab-pane" id="tab-2">
 
-          <div class="row gy-10 mb-5">
+            <div class="row gy-10 mb-5">
               <div class="col-12 text-center">
                 <h3>Pulau Indah</h3>
 
@@ -277,8 +285,8 @@
                     <ul class="nav nav-pills mb-3 justify-content-center">
                       <li><a class="nav-link2  d-flex justify-content-center active" data-bs-toggle="pill"
                           href="#tabf1">Must Visits Spots</a></li>
-                      <li><a class="nav-link2  d-flex justify-content-center" data-bs-toggle="pill"
-                          href="#tabf2">Grab A Bite</a></li>
+                      <li><a class="nav-link2  d-flex justify-content-center" data-bs-toggle="pill" href="#tabf2">Grab A
+                          Bite</a></li>
 
                     </ul><!-- End Tabs -->
 
@@ -301,8 +309,8 @@
                             echo '<div class="col-12 col-lg-6 mb-3  ">';
                             echo '  <div class="card h-100">';
                             echo '    <div class="row  h-100">';
-                            echo '      <div class="col-6">';
-                            echo '        <img class="card-img " src="assets/img/explorekl/islands/' . $row['islands_image'] . '" alt="' . $row['islands_title'] . '" loading="lazy" >';
+                            echo '      <div class="col-6 h-100">';
+                            echo '        <img class="card-img h-100" src="assets/img/islands/indah/' . $row['islands_image'] . '" alt="' . $row['islands_title'] . '" loading="lazy" >';
                             echo '      </div>';
                             echo '      <div class="col-6 " >';
                             echo '        <div class="card-body h-100">';
@@ -351,8 +359,8 @@
                             echo '<div class="col-12 col-lg-6 mb-3  ">';
                             echo '  <div class="card h-100">';
                             echo '    <div class="row  h-100">';
-                            echo '      <div class="col-6">';
-                            echo '        <img class="card-img  " src="assets/img/explorekl/islands/' . $row['islands_image'] . '" alt="' . $row['islands_title'] . '" loading="lazy">';
+                            echo '      <div class="col-6 h-100">';
+                            echo '        <img class="card-img  h-100" src="assets/img/islands/indah/' . $row['islands_image'] . '" alt="' . $row['islands_title'] . '" loading="lazy">';
                             echo '      </div>';
                             echo '      <div class="col-6 " >';
                             echo '        <div class="card-body h-100 ">';
@@ -397,11 +405,11 @@
           </div><!-- End Tab Content 2 -->
 
 
-  
 
 
 
- 
+
+
 
 
 
@@ -452,7 +460,8 @@
         let result = text.includes("tab");
         if (result) {
 
-          location.reload()
+          location.reload();
+          scrollto("nearbyislands");
 
           //  block of code to be executed if the condition is true
         }

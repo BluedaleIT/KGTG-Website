@@ -39,32 +39,27 @@ while ($row = mysqli_fetch_assoc($result)) {
 <head>
   <title>Klang The Guide</title>
 
-  <meta content="We present you KL The Guide, where you will be able to find and learn about everything there is to know about 
-    Kuala Lumpur in Malaysia" name="description">
-  <meta content="KL The Guide, Travel Places Guide Street Visited Trending Tourism Attraction Kuala Lumpur"
-    name="keywords">
-
-  <meta itemprop="name" content="Klang The Guide">
-  <meta itemprop="description" content="We present you KL The Guide, where you will be able to find and learn about everything there is to know about 
-    Kuala Lumpur in Malaysia">
-  <meta itemprop="image" content="https://www.kltheguide.com.my/assets/img/kltgseo.jpg">
+  <meta name="description"
+    content="">
+  <meta content="" name="keywords">
 
 
   <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://www.kltheguide.com.my" />
-  <meta property="og:title" content="KL The Guide" />
-  <meta property="og:description" content="We present you KL The Guide, where you will be able to find and learn about everything there is to know about 
-    Kuala Lumpur in Malaysia" />
-  <meta property="og:image" content="https://www.kltheguide.com.my/assets/img/kltgseo.jpg">
+  <meta property="og:type" content="" />
+  <meta property="og:url" content="" />
+  <meta property="og:title" content="" />
+  <meta property="og:description"
+    content="" />
+  <meta property="og:image" content="">
 
   <!-- Twitter -->
-  <meta property="twitter:card" content="summary_large_image" />
-  <meta property="twitter:url" content="https://www.kltheguide.com.my" />
-  <meta property="twitter:title" content="KL The Guide" />
-  <meta property="twitter:description" content="We present you KL The Guide, where you will be able to find and learn about everything there is to know about 
-    Kuala Lumpur in Malaysia" />
-  <meta property="twitter:image" content="https://www.kltheguide.com.my/assets/img/kltgseo.jpg" />
+  <meta property="twitter:card" content="" />
+  <meta property="twitter:url" content="" />
+  <meta property="twitter:title" content="" />
+  <meta property="twitter:description"
+    content="" />
+  <meta property="twitter:image" content="" />
+
 
 
   <?php include 'header.php'; ?>
@@ -174,9 +169,7 @@ while ($row = mysqli_fetch_assoc($result)) {
             class="container d-flex flex-column justify-content-center align-items-center text-center position-relative"
             data-aos="zoom-out">
             <h2>Welcome to <span><br>Klang</span></h2>
-            <p>Stay up to date with all the updates and exclusive content from KL The Guide.<br>Simply enter your email
-              below
-              to join our community and receive regular updates of our latest eBook, giveaways, travel tips and more!
+            <p>Travel around to experience the remarkable treasures and the hidden gems in Klang.
             </p>
 
 
@@ -218,20 +211,20 @@ while ($row = mysqli_fetch_assoc($result)) {
 
           <div class="col-6 col-lg-6 col-md-6  d-flex bg-image" data-aos="zoom-out">
             <div class="service-item  position-relative d-flex align-items-center justify-content-center  ">
-              <div class="icon"> <img src="assets/img/highlights/<?php echo urldecode($tile1_photo1) ?>" class=""
+              <div class="icon"> <img src="assets/img/highlights/<?php echo urldecode($tile1_photo1) ?>" class="w-100 h-100"
                   alt=""></div>
-              <a class="stretched-link" href="highlights.php#tab-1"></a>
-              <h4 class="text-center text">KL @ A Glance</h4>
+              <a class="stretched-link" href="highlights.php#tab-2"></a>
+              <h4 class="text-center text">Klang @ A Glance</h4>
               <!-- <p>KL @ A Glance</p> -->
             </div>
           </div><!-- End Service Item -->
           <div class="col-6 col-lg-6 col-md-6  d-flex" data-aos="zoom-out">
             <div class="service-item  position-relative d-flex align-items-center justify-content-center">
 
-              <div class="icon"> <img src="assets/img/highlights/<?php echo urldecode($tile1_photo2) ?>" class=""
+              <div class="icon"> <img src="assets/img/highlights/<?php echo urldecode($tile1_photo2) ?>" class="w-100 h-100"
                   alt=""></div>
-                  <a class="stretched-link" href="highlights.php#tab-2"></a>
-              <h4 class="text-center text">Getting Around KL</h4>
+                  <a class="stretched-link" href="highlights.php#tab-3"></a>
+              <h4 class="text-center text">People Of Klang</h4>
               <!-- <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p> -->
             </div>
           </div><!-- End Service Item -->
@@ -263,15 +256,15 @@ while ($row = mysqli_fetch_assoc($result)) {
 
           <div class="d-flex col-xl-4 col-md-6 justify-content-center" data-aos="zoom-in" data-aos-delay="200">
             <div class="service-item">
-              <a href="explorekl.php#explorekl" class="stretched-link">
+              <a href="exploreklang.php" class="stretched-link">
 
                 <div class="img">
                   <img src="assets/img/recommendation/<?php echo $tile2_photo1 ?>" class="img-fluid object-fit-cover"
-                    alt="Explore KL">
+                    alt="Explore Klang">
                 </div>
                 <div class="details position-relative">
                   <div class="d-flex align-items-center justify-content-center">
-                    <h3>Explore KL</h3>
+                    <h3>Explore Klang</h3>
                     <div class="icon2">
                       <i class="bi bi-box-arrow-right"></i>
                     </div>
@@ -286,16 +279,16 @@ while ($row = mysqli_fetch_assoc($result)) {
           </div><!-- End Service Item -->
           <div class="d-flex col-xl-4 col-md-6 justify-content-center" data-aos="zoom-in" data-aos-delay="200">
             <div class="service-item">
-              <a href="where-to-shop.php" class="stretched-link">
+              <a href="shoptildrop.php" class="stretched-link">
 
                 <div class="img">
                   <img src="assets/img/recommendation/<?php echo $tile2_photo2 ?>" class="img-fluid object-fit-cover"
-                    alt="Shop Like Locals">
+                    alt="Shop Til Drop">
                 </div>
                 <div class="details position-relative">
 
                   <div class="d-flex align-items-center justify-content-center">
-                    <h3>Shop Like Locals</h3>
+                    <h3>Shop Til Drop</h3>
                     <div class="icon2">
                       <i class="bi bi-box-arrow-right"></i>
                     </div>
@@ -309,15 +302,15 @@ while ($row = mysqli_fetch_assoc($result)) {
           </div><!-- End Service Item -->
           <div class="d-flex col-xl-4 col-md-6 justify-content-center" data-aos="zoom-in" data-aos-delay="200">
             <div class="service-item">
-              <a href="accommodation.php#placetostay" class="stretched-link">
+              <a href="accommodation.php" class="stretched-link">
 
                 <div class="img">
                   <img src="assets/img/recommendation/<?php echo $tile2_photo3 ?>" class="img-fluid object-fit-cover"
-                    alt="Place To Stay">
+                    alt="Accommodation">
                 </div>
                 <div class="details position-relative">
                   <div class="d-flex align-items-center justify-content-center">
-                    <h3>Place To Stay</h3>
+                    <h3>Accommodation</h3>
                     <div class="icon2">
                       <i class="bi bi-box-arrow-right"></i>
                     </div>
@@ -331,15 +324,15 @@ while ($row = mysqli_fetch_assoc($result)) {
           </div><!-- End Service Item -->
           <div class="d-flex col-xl-4 col-md-6 justify-content-center" data-aos="zoom-in" data-aos-delay="200">
             <div class="service-item">
-              <a href="spa.php" class="stretched-link">
+              <a href="healthcare.php" class="stretched-link">
 
                 <div class="img">
                   <img src="assets/img/recommendation/<?php echo $tile2_photo4 ?>" class="img-fluid object-fit-cover"
-                    alt="Spa Time">
+                    alt="Healthcare">
                 </div>
                 <div class="details position-relative">
                   <div class="d-flex align-items-center justify-content-center">
-                    <h3>Spa Time</h3>
+                    <h3>Healthcare</h3>
                     <div class="icon2">
                       <i class="bi bi-box-arrow-right"></i>
                     </div>
@@ -353,15 +346,15 @@ while ($row = mysqli_fetch_assoc($result)) {
           </div><!-- End Service Item -->
           <div class="d-flex col-xl-4 col-md-6 justify-content-center" data-aos="zoom-in" data-aos-delay="200">
             <div class="service-item">
-              <a href="medical-tourism.php#medicaltourism" class="stretched-link">
+              <a href="kampunglife.php" class="stretched-link">
 
                 <div class="img">
                   <img src="assets/img/recommendation/<?php echo $tile2_photo5 ?>" class="img-fluid object-fit-cover"
-                    alt="Medical Tourism">
+                    alt="Kampung Life">
                 </div>
                 <div class="details position-relative">
                   <div class="d-flex align-items-center justify-content-center">
-                    <h3>Medical Tourism</h3>
+                    <h3>Kampung Life</h3>
                     <div class="icon2">
                       <i class="bi bi-box-arrow-right"></i>
                     </div>
@@ -376,15 +369,15 @@ while ($row = mysqli_fetch_assoc($result)) {
           </div><!-- End Service Item -->
           <div class="d-flex col-xl-4 col-md-6 justify-content-center" data-aos="zoom-in" data-aos-delay="200">
             <div class="service-item">
-              <a href="beyondkl.php#beyondkl" class="stretched-link">
+              <a href="nearbyislands.php" class="stretched-link">
 
                 <div class="img">
                   <img src="assets/img/recommendation/<?php echo $tile2_photo6 ?>" class="img-fluid object-fit-cover"
-                    alt="Beyond KL">
+                    alt="Nearby Islands">
                 </div>
                 <div class="details position-relative">
                   <div class="d-flex align-items-center justify-content-center">
-                    <h3>Beyond KL</h3>
+                    <h3>Nearby Islands</h3>
                     <div class="icon2">
                       <i class="bi bi-box-arrow-right"></i>
                     </div>

@@ -9,25 +9,25 @@
   <title>Klang The Guide - Healthcare</title>
 
   <meta name="description"
-    content="This page contains the medical tourism locations located throughout Kuala Lumpur, Malaysia">
+    content="">
   <meta content="" name="keywords">
 
+
   <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://www.kltheguide.com.my/medical-tourism.php" />
-  <meta property="og:title" content="KL The Guide - Medical Tourism" />
+  <meta property="og:type" content="" />
+  <meta property="og:url" content="" />
+  <meta property="og:title" content="" />
   <meta property="og:description"
-    content="This page contains the medical tourism locations located throughout Kuala Lumpur, Malaysia" />
-  <meta property="og:image" content="https://www.kltheguide.com.my/assets/img/kltgseo.jpg">
+    content="" />
+  <meta property="og:image" content="">
 
   <!-- Twitter -->
-  <meta property="twitter:card" content="summary_large_image" />
-  <meta property="twitter:url" content="https://www.kltheguide.com.my/medical-tourism.php" />
-  <meta property="twitter:title" content="KL The Guide - Medical Tourism" />
+  <meta property="twitter:card" content="" />
+  <meta property="twitter:url" content="" />
+  <meta property="twitter:title" content="" />
   <meta property="twitter:description"
-    content="This page contains the medical tourism locations located throughout Kuala Lumpur, Malaysia" />
-  <meta property="twitter:image" content="https://www.kltheguide.com.my/assets/img/kltgseo.jpg" />
-
+    content="" />
+  <meta property="twitter:image" content="" />
 
 
   <?php include 'header.php'; ?>
@@ -138,7 +138,7 @@
 
                   </div>
                   <div class="col-md-4 order-1  text-center align-self-center">
-                    <img src="assets/img/medical_tourism/dtl/<?php echo $row['healthcare_image'] ?>"
+                    <img src="assets/img/healthcare/tcm/<?php echo $row['healthcare_image'] ?>"
                       alt="<?php echo urldecode($row['healthcare_title']) ?>" class="img-fluid" loading="lazy">
                   </div>
                 </div>
@@ -173,7 +173,7 @@
 
                   </div>
                   <div class="col-md-4 order-md-2 order-1 text-center align-self-center ">
-                    <img src="assets/img/medical_tourism/dtl/<?php echo $row['healthcare_image'] ?>"
+                    <img src="assets/img/healthcare/tcm/<?php echo $row['healthcare_image'] ?>"
                       alt="<?php echo urldecode($row['healthcare_title']) ?>" class="img-fluid" loading="lazy">
                   </div>
                 </div>
@@ -233,7 +233,7 @@
 
                     </div>
                     <div class="col-md-4 order-1  text-center align-self-center">
-                      <img src="assets/img/medical_tourism/der/<?php echo $row['healthcare_image'] ?>"
+                      <img src="assets/img/healthcare/facility/<?php echo $row['healthcare_image'] ?>"
                         alt="<?php echo urldecode($row['healthcare_title']) ?>" class="img-fluid" loading="lazy">
                     </div>
                   </div>
@@ -264,7 +264,7 @@
 
                     </div>
                     <div class="col-md-4 order-md-2 order-1 text-center align-self-center ">
-                      <img src="assets/img/medical_tourism/der/<?php echo $row['healthcare_image'] ?>"
+                      <img src="assets/img/healthcare/facility/<?php echo $row['healthcare_image'] ?>"
                         alt="<?php echo urldecode($row['healthcare_title']) ?>" class="img-fluid" loading="lazy">
                     </div>
                   </div>

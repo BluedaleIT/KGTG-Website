@@ -1,10 +1,10 @@
 <!-- ======= Header ======= -->
 <header id="header" class="header fixed-top" data-scrollto-offset="0">
-  <div class="container-fluid d-flex align-items-center justify-content-between">
+  <div class="container-fluid d-flex align-items-center justify-content-between ">
 
-    <a href="index.php#index" class="logo d-flex align-items-center scrollto me-auto me-lg-0">
-      <!-- <img src="assets/img/LogoNav.png" alt="Logo KL The Guide"> -->
-      <h1><span>Klang</span> The Guide</h1>
+    <a href="index.php#index" class="logo d-flex align-items-center justify-content-center scrollto me-auto me-lg-0">
+      <!-- <img src="assets/img/test66.png" alt="Logo KL The Guide"> -->
+      <h1 class="my-auto"><span>Klang</span> The Guide</h1>
 
     </a>
 
@@ -55,34 +55,28 @@
             <li class="dropdown"><a href="healthcare.php"><span>Healthcare</span> <i
                   class="bi bi-chevron-down dropdown-indicator"></i></a>
               <ul>
-                <li><a href="medical-tourism.php#tab-1">Traditional Chinese Medicine</a></li>
-                <li><a href="medical-tourism.php#tab-2">Facilities</a></li>
+                <li><a href="healthcare.php#tab-2">Traditional Chinese Medicine</a></li>
+                <li><a href="healthcare.php#tab-3">Facilities</a></li>
 
               </ul>
             </li>
-            <li class="dropdown"><a href="kampunglife.php"><span>Kampung Life</span> <i
+            <!-- <li class="dropdown"><a href="kampunglife.php"><span>Kampung Life</span> <i
                   class="bi bi-chevron-down dropdown-indicator"></i></a>
               <ul>
-                <li><a href="explorekl.php#tab-1">Kampung Kuantan</a></li>
-                <li><a href="explorekl.php#tab-2">Kampung Jawa</a></li>
-                <li><a href="explorekl.php#tab-3">Kampung Rantau Panjang</a></li>
-                <li><a href="explorekl.php#tab-4">Kampung Meru</a></li>
-                <li><a href="explorekl.php#tab-5">Kampung Sungai Udang</a></li>
-                <li><a href="explorekl.php#tab-6">Kampung Baru Pandamaran</a></li>
-                <li><a href="explorekl.php#tab-7">Kampung Raja Uda</a></li>
+                <li><a href="kampunglife.php#tab-1">Kampung Kuantan</a></li>
+                <li><a href="kampunglife.php#tab-2">Kampung Jawa</a></li>
+                <li><a href="kampunglife.php#tab-3">Kampung Rantau Panjang</a></li>
+                <li><a href="kampunglife.php#tab-4">Kampung Meru</a></li>
+                <li><a href="kampunglife.php#tab-5">Kampung Sungai Udang</a></li>
+                <li><a href="kampunglife.php#tab-6">Kampung Baru Pandamaran</a></li>
+                <li><a href="kampunglife.php#tab-7">Kampung Raja Uda</a></li>
 
               </ul>
-            </li>
-            <li class="dropdown"><a href="nearbyislands.php"><span>Nearby Islands</span> <i
-                  class="bi bi-chevron-down dropdown-indicator"></i></a>
-              <ul>
-                <li><a href="beyondkl.php#tab-1">Pulau Ketam</a></li>
-                <li><a href="beyondkl.php#tab-2">Pulau Indah</a></li>
-                <!-- <li><a href="beyondkl.php#tab-3">Waterfall</a></li>
-                <li><a href="beyondkl.php#tab-4">Hiking</a></li>
-                <li><a href="beyondkl.php#tab-5">Extreme Sports</a></li> -->
-              </ul>
-            </li>
+            </li> -->
+            <li><a class="nav-link scrollto" href="kampunglife.php">Kampung Life</a></li>
+
+            <li><a class="nav-link scrollto" href="nearbyislands.php">Nearby Islands</a></li>
+
 
             <!-- <li><a href="spa.php">Sports and Recreation</a></li> -->
 

@@ -41,34 +41,26 @@ while ($row = mysqli_fetch_assoc($result)) {
 <head>
   <title>Klang The Guide - Highlights</title>
 
-  <meta
-    content="Immerse yourself in the best of Kuala Lumpur with our curated selection of KL Highlights. Start planning your trip today!"
-    name="description">
+  <meta name="description"
+    content="">
   <meta content="" name="keywords">
 
 
-
-  <meta itemprop="name" content="KL The Guide - KL Highlights">
-  <meta itemprop="description"
-    content="Immerse yourself in the best of Kuala Lumpur with our curated selection of KL Highlights. Start planning your trip today!">
-  <meta itemprop="image" content="https://www.kltheguide.com.my/assets/img/kltgseo.jpg">
-
-
   <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://www.kltheguide.com.my/highlights.php" />
-  <meta property="og:title" content="KL The Guide - KL Highlights" />
+  <meta property="og:type" content="" />
+  <meta property="og:url" content="" />
+  <meta property="og:title" content="" />
   <meta property="og:description"
-    content="Immerse yourself in the best of Kuala Lumpur with our curated selection of KL Highlights. Start planning your trip today!" />
-  <meta property="og:image" content="https://www.kltheguide.com.my/assets/img/kltgseo.jpg">
+    content="" />
+  <meta property="og:image" content="">
 
   <!-- Twitter -->
-  <meta property="twitter:card" content="summary_large_image" />
-  <meta property="twitter:url" content="https://www.kltheguide.com.my/highlights.php" />
-  <meta property="twitter:title" content="KL The Guide - KL Highlights" />
+  <meta property="twitter:card" content="" />
+  <meta property="twitter:url" content="" />
+  <meta property="twitter:title" content="" />
   <meta property="twitter:description"
-    content="Immerse yourself in the best of Kuala Lumpur with our curated selection of KL Highlights. Start planning your trip today!" />
-  <meta property="twitter:image" content="https://www.kltheguide.com.my/assets/img/kltgseo.jpg" />
+    content="" />
+  <meta property="twitter:image" content="" />
 
   <?php include 'header.php'; ?>
 
@@ -95,13 +87,13 @@ while ($row = mysqli_fetch_assoc($result)) {
         <ul class="nav nav-tabs row gy-4  my-5 d-flex justify-content-center">
 
           <li class="nav-item col-6 col-md-3 col-lg-3">
-            <a class="nav-link beyond1" id="tab-1-link" href="#tab-1" data-bs-toggle="tab" data-bs-target="#tab-1">
+            <a class="nav-link glance" id="tab-1-link" href="#tab-1" data-bs-toggle="tab" data-bs-target="#tab-1">
               <h4 class="text-center">Klang @ A Glance</h4>
             </a>
           </li><!-- End Tab 1 Nav -->
 
           <li class="nav-item col-6 col-md-3 col-lg-3">
-            <a class="nav-link beyond2" id="tab-2-link" data-bs-toggle="tab" href="#tab-2" data-bs-target="#tab-2">
+            <a class="nav-link people" id="tab-2-link" data-bs-toggle="tab" href="#tab-2" data-bs-target="#tab-2">
               <h4 class="text-center">People Of Klang</h4>
             </a>
           </li><!-- End Tab 2 Nav -->
@@ -436,7 +428,7 @@ while ($row = mysqli_fetch_assoc($result)) {
 
 
 
-                                  <div class="col-lg-9 text-center">
+                                  <div class="col text-center">
                                     <h2>1776</h2>
                                     <p>The Selangor sultanate was established and maintained sovereignty over Klang until the arrival of British colonial rule in 1874.</p>
                                   </div>
@@ -1610,7 +1602,7 @@ while ($row = mysqli_fetch_assoc($result)) {
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-  <script src="assets/js/timeline.js"></script>
+  <!-- <script src="assets/js/timeline.js"></script> -->
 
   <script>
     $(document).ready(function () {
